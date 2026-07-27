@@ -1,20 +1,25 @@
 # ==========================================
 # 網站基本設定 (Site Settings)
 # ==========================================
-title: "Punch與他的社會工程學"                    # 網站大標題
-subtitle: "Punch是隻貓 " # 副標題
-description: "他真的是隻貓" # 網站簡介
+title: "Punch與他的社會工程學"
+subtitle: "Punch是隻貓"
+description: "他真的是隻貓"
 
 # 個人資訊
 author:
   name: "Yong"
   bio: "人生目標是一天工作兩小時"
-  
-# 網址設定 
-url: "https://mic219219.github.io/Punch---His-Social-Engineering/"
-baseurl: ""
 
-# 外觀設定 (預設深色模式)
+# 網址設定 (專為非預設子目錄 Repo 修正)
+url: "https://mic219219.github.io"
+baseurl: "/Punch---His-Social-Engineering"
+
+# 外觀設定 (深色模式)
 theme: minima
 minima:
   skin: dark
+
+# 外掛與編譯設定
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
