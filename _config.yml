@@ -13,7 +13,7 @@ author:
 
 # 網址設定 (GitHub Pages 設定)
 # ⚠️ 請將下面的 username 改成你的 GitHub 帳號名稱
-url: "https://username.github.io"             # 你的網站完整網址
+# url: "https://username.github.io"             # 你的網站完整網址
 baseurl: ""                                   # 保持空白即可（若為個人/組織頁面）
 
 # ==========================================
