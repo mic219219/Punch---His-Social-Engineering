@@ -7,9 +7,9 @@ description: "他真的是隻貓" # 網站簡介
 
 # 個人資訊
 author:
-  name: "Yong"                          # 你的名字或貓咪與你
+  name: "Yong"
   bio: "人生目標是一天工作兩小時"
-
+  
 # 網址設定 
 url: "https://mic219219.github.io/Punch---His-Social-Engineering/"
 baseurl: ""
