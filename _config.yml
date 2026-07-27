@@ -6,9 +6,9 @@ subtitle: "Punch是隻貓"
 description: "他真的是隻貓"
 
 # 個人資訊
-author:
-  name: "Yong"
-  bio: "人生目標是一天工作兩小時"
+#author:
+#  name: "Yong"
+#  bio: "人生目標是一天工作兩小時"
 
 # 網址設定 (專為非預設子目錄 Repo 修正)
 url: "https://mic219219.github.io"
