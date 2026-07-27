@@ -10,8 +10,8 @@ author:
   name: "Yong"                          # 你的名字或貓咪與你
   bio: "人生目標是一天工作兩小時"
 
-# 網址設定 (請記得將 username 改成你的 GitHub 帳號)
-# url: "https://username.github.io"
+# 網址設定 
+url: "https://mic219219.github.io/Punch---His-Social-Engineering/"
 baseurl: ""
 
 # 外觀設定 (預設深色模式)
