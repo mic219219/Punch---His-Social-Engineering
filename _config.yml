@@ -5,21 +5,17 @@ title: "Punch與他的社會工程學"
 subtitle: "Punch是隻貓"
 description: "他真的是隻貓"
 
-# 個人資訊
-#author:
-#  name: "Yong"
-#  bio: "人生目標是一天工作兩小時"
-
-# 網址設定 (專為非預設子目錄 Repo 修正)
 url: "https://mic219219.github.io"
 baseurl: "/Punch---His-Social-Engineering"
 
-# 外觀設定 (深色模式)
-theme: minima
+# 1. 將原本的 theme: minima 註解或改掉，改用 remote_theme
+remote_theme: jekyll/minima
+
+# 2. 加入 remote-theme 外掛啟用遠端主題
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+# 3. 啟用深色模式（也可設定為 auto，會跟隨使用者系統深色/淺色切換）
 minima:
   skin: dark
-
-# 外掛與編譯設定
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
