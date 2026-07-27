@@ -13,17 +13,17 @@ author:
 
 # 網址設定 (GitHub Pages 設定)
 # ⚠️ 請將下面的 username 改成你的 GitHub 帳號名稱
-# url: "https://username.github.io"             # 你的網站完整網址
+url: "https://username.github.io"             # 你的網站完整網址
 baseurl: ""                                   # 保持空白即可（若為個人/組織頁面）
 
 # ==========================================
 # 主題與外觀設定 (Theme & Appearance)
 # ==========================================
-theme: minima                                 # 預設主題 (可替換為 jekyll-theme-cayman 等)
+theme: minima                                 # 預設主題
 
-# Minima 主題外觀微調 (可選: classic, dark, auto)
+# Minima 主題外觀微調 (強制開啟深色模式)
 minima:
-  skin: auto                                  # 自動跟隨系統切換深色/淺色模式
+  skin: dark                                  # 🌙 已設定為強制深色主題 (Dark Theme)
   social_links:
     - { platform: github, user_url: "https://github.com/your-username" }
     # - { platform: instagram, user_url: "https://instagram.com/your-handle" }
