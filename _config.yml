@@ -1,49 +1,20 @@
 # ==========================================
 # 網站基本設定 (Site Settings)
 # ==========================================
-title: "我的履歷與旅行足跡"                      # 網站大標題
-subtitle: "記錄人生軌跡與世界探索的數位空間"     # 副標題 / 標語
-description: "這裡是我記錄人生成長軌跡與世界探索的數位空間。透過旅行隨筆、生活思考與個人經歷，拼湊出屬於自己的故事地圖。" # 網站簡介（影響 SEO）
+title: "Punch與他的社會工程學"                    # 網站大標題
+subtitle: "Punch是隻貓 " # 副標題
+description: "他真的是隻貓" # 網站簡介
 
-# 個人資訊（可選）
+# 個人資訊
 author:
-  name: "你的名字"                              # 你的名字或暱稱
-  email: "your-email@example.com"             # 電子郵件（若不想公開可留空）
-  bio: "熱愛旅行、記錄生活與探索未來的數位遊牧者。" # 一句話自我介紹
+  name: "Yong"                          # 你的名字或貓咪與你
+  bio: "人生目標是一天工作兩小時"
 
-# 網址設定 (GitHub Pages 設定)
-# ⚠️ 請將下面的 username 改成你的 GitHub 帳號名稱
-url: "https://username.github.io"             # 你的網站完整網址
-baseurl: ""                                   # 保持空白即可（若為個人/組織頁面）
+# 網址設定 (請記得將 username 改成你的 GitHub 帳號)
+# url: "https://username.github.io"
+baseurl: ""
 
-# ==========================================
-# 主題與外觀設定 (Theme & Appearance)
-# ==========================================
-theme: minima                                 # 預設主題
-
-# Minima 主題外觀微調 (強制開啟深色模式)
+# 外觀設定 (預設深色模式)
+theme: minima
 minima:
-  skin: dark                                  # 🌙 已設定為強制深色主題 (Dark Theme)
-  social_links:
-    - { platform: github, user_url: "https://github.com/your-username" }
-    # - { platform: instagram, user_url: "https://instagram.com/your-handle" }
-    # - { platform: linkedin, user_url: "https://linkedin.com/in/your-profile" }
-
-# ==========================================
-# 編譯器與外掛設定 (Build & Plugins)
-# ==========================================
-markdown: kramdown
-highlighter: rouge
-
-# GitHub Pages 支援的原生外掛
-plugins:
-  - jekyll-feed                              # 自動生成 RSS 訂閱源
-  - jekyll-seo-tag                          # 自動提升搜尋引擎優化 (SEO)
-  - jekyll-sitemap                          # 自動產生 Sitemap 檔案
-
-# 排除不需要編譯的檔案
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - node_modules
+  skin: dark
